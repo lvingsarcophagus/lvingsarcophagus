@@ -1,52 +1,66 @@
-# Hi, I'm @lvingsarcophagus
+# Hi there, I'm @lvingsarcophagus 👋
 
-## Interests  
-I am interested in SOC analysis, web development, and practical cybersecurity.  
+### 🛡️ Cybersecurity Enthusiast & Aspiring SOC Analyst
 
-## Currently Learning  
-- Rust, with a focus on secure systems programming and high-performance backend development.  
+I'm passionate about **practical cybersecurity**, **SOC analysis**, and building **secure, high-performance systems**. Currently diving deep into Rust to write resilient backend code and security tooling.
 
-## Collaboration  
-I am interested in collaborating on:  
-- Security operations and SOC-related projects  
-- Threat detection, log analysis, and incident response tooling  
-- Security-focused web applications and automation for security workflows  
+---
 
-## Security and SOC Focus  
+### 🚀 Key Focus & Interests
 
-I am passionate about cybersecurity and building systems that are resilient against real-world threats.  
-Key areas of interest include:  
-- SOC analysis and security monitoring  
-- Penetration testing and adversary simulation  
-- Vulnerability assessment and remediation  
-- Secure coding practices and code review  
-- Network security and traffic analysis  
+* **Security Operations (SOC):** Threat detection, log analysis, and incident response.
+* **Systems Programming:** Focused on **Rust** for performance and memory safety.
+* **Offensive Security:** Penetration testing, adversary simulation, and vulnerability assessment.
+* **Web Development:** Building security-focused web applications with modern frontend stacks.
 
-## Tech Stack  
+### 📚 Currently Learning
 
-### Languages  
-- Rust (learning)  
-- Python  
-- C++  
-- JavaScript  
-- HTML  
-- CSS  
+* **Rust:** Focusing on secure systems programming, concurrent applications, and high-performance backend development.
+* **Advanced Log Analysis Techniques** in SIEM platforms like Splunk.
 
-### Web Development  
-- Next.js  
-- React  
-- Modern frontend development (HTML, CSS, JavaScript)  
+---
 
-### Security and Monitoring Tools  
-- Splunk  
-- Nmap  
-- Wireshark  
+### 🤝 Let's Collaborate
 
-## Contact  
+I'm actively seeking opportunities to contribute to projects in the following areas:
 
-- Email: nayanjoshymaniyathjoshy@gmail.com  
+* **Security Automation:** Building tools for SOC workflows, threat intelligence, and incident response.
+* **Threat Hunting & Detection:** Developing detection rules, analyzing anomalous behavior, and creating custom tooling.
+* **Open-Source Security Projects:** Contributing to libraries or applications focused on secure coding and network analysis.
 
-## Connect  
+---
 
-Open to connecting with security engineers, SOC analysts, and developers working on security tooling.  
-If you are building something in cybersecurity or SOC automation and need a contributor, feel free to reach out.  
+### 💻 Tech Stack & Tools
+
+#### 🌐 Languages
+
+<p>
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+<details>
+<summary>Other Languages</summary>
+<p>
+  - HTML & CSS (Foundational Web Skills)
+</p>
+</details>
+
+#### 🖥️ Web Development
+
+* **Frameworks:** Next.js, React
+* **Fundamentals:** Modern HTML, CSS, and JavaScript
+
+#### 🛡️ Security & Monitoring Tools
+
+* **SIEM/Monitoring:** Splunk
+* **Network Analysis:** Wireshark
+* **Scanning/Recon:** Nmap
+
+---
+
+### 📧 Connect with Me
+
+* **Email:** nayanjoshymaniyathjoshy@gmail.com
+* **Connect:** I'm open to connecting with security engineers, developers, and SOC analysts. If you are working on a security-focused project, **feel free to reach out to discuss collaboration!**
