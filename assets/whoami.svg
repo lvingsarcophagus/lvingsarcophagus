@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <style>
+    .bg { fill: #000000; }
+    .title { font-family: -apple-system, sans-serif; font-size: 24px; font-weight: 600; fill: #FFFFFF; opacity: 0; animation: fade 0.8s forwards 0.1s; }
+    .body { font-family: -apple-system, sans-serif; font-size: 16px; font-weight: 400; fill: #A3B3C2; opacity: 0; animation: fade 0.8s forwards; }
+    .highlight { fill: #FFFFFF; font-weight: 600; }
+    .bullet { fill: #FFFFFF; font-size: 14px; opacity: 0; animation: pulse 2s infinite; }
+    
+    .d1 { animation-delay: 0.3s; }
+    .d2 { animation-delay: 0.5s; }
+    .d3 { animation-delay: 0.7s; }
+    .d4 { animation-delay: 0.9s; }
+    .b1 { animation-delay: 1.1s; }
+    .b2 { animation-delay: 1.3s; }
+    .b3 { animation-delay: 1.5s; }
+    
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+  </style>
+  <rect class="bg" width="800" height="300" rx="8" />
+  
+  <text x="40" y="50" class="title">01 — whoami</text>
+  
+  <text x="40" y="90" class="body d1">I work at the intersection of <tspan class="highlight">cybersecurity</tspan> and <tspan class="highlight">blockchain security</tspan>. I audit smart contracts,</text>
+  <text x="40" y="115" class="body d2">build security tooling, and engineer DeFi systems designed to be resilient from day one.</text>
+  <text x="40" y="140" class="body d3">I hold a BSc in Information Systems and Cybersecurity from Vilnius University, with hands-on</text>
+  <text x="40" y="165" class="body d4">experience across penetration testing, threat detection, and secure architecture.</text>
+  
+  <text x="40" y="215" class="bullet b1">▶</text>
+  <text x="60" y="215" class="body b1"><tspan class="highlight">Smart Contract Security</tspan>: Reentrancy, access control, oracle manipulation, invariant fuzzing</text>
+  
+  <text x="40" y="245" class="bullet b2">▶</text>
+  <text x="60" y="245" class="body b2"><tspan class="highlight">Security Tooling</tspan>: Custom static analyzers, symbolic execution (Z3), taint-tracking, SARIF</text>
+  
+  <text x="40" y="275" class="bullet b3">▶</text>
+  <text x="60" y="275" class="body b3"><tspan class="highlight">Penetration Testing</tspan>: Network recon, vulnerability assessment, adversary simulation</text>
+</svg>

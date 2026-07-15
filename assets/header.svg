@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <style>
+    .bg { fill: #000000; }
+    .text-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 800; fill: #FFFFFF; opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.3s; }
+    .text-role { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #A3B3C2; opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.5s; }
+    .accent { fill: #FFFFFF; height: 0; animation: growLine 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.1s; }
+    
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes growLine {
+      from { height: 0; }
+      to { height: 90px; }
+    }
+    @keyframes scan {
+      from { stroke-dashoffset: 800; }
+      to { stroke-dashoffset: 0; }
+    }
+    .grid-line { stroke: #222222; stroke-width: 1; stroke-dasharray: 800; animation: scan 4s linear infinite; }
+  </style>
+  
+  <rect class="bg" width="800" height="200" rx="8" />
+  
+  <g opacity="0.5">
+    <path class="grid-line" d="M 0 50 L 800 50 M 0 100 L 800 100 M 0 150 L 800 150 M 100 0 L 100 200 M 200 0 L 200 200 M 300 0 L 300 200 M 400 0 L 400 200 M 500 0 L 500 200 M 600 0 L 600 200 M 700 0 L 700 200" />
+  </g>
+
+  <rect class="accent" x="40" y="55" width="4" height="90" rx="2" />
+  
+  <g>
+    <text x="60" y="95" class="text-name">Nayan Joshy</text>
+    <text x="60" y="135" class="text-role">Cybersecurity Engineer · Web3 Security · Smart Contract Auditor</text>
+  </g>
+</svg>
