@@ -88,7 +88,17 @@ I work at the intersection of **cybersecurity** and **blockchain security**. I a
 | Junior Cybersecurity Analyst Career Path | Cisco | 2025 |
 
 
+---
 
+### GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=lvingsarcophagus&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="60%" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/58a6ff/lvingsarcophagus" alt="Contribution Chart" width="100%" />
+</p>
 ---
 
 <p align="center">
