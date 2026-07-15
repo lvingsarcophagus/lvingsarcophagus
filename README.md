@@ -71,10 +71,9 @@ I specialize at the intersection of **Cybersecurity** and **Web3 Security**. Wit
 
 ### GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lvingsarcophagus&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lvingsarcophagus&show_icons=true&theme=tokyonight&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&theme=tokyonight)
 
 ---
 
