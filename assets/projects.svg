@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <style>
+    .bg { fill: #0D1117; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 24px; font-weight: 600; fill: #C9D1D9; }
+    .card-bg { fill: #161B22; stroke: #30363D; stroke-width: 1; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; font-weight: 600; fill: #58A6FF; }
+    .card-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; font-weight: 400; fill: #8B949E; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #FFFFFF; }
+      .title { fill: #24292F; }
+      .card-bg { fill: #F6F8FA; stroke: #D0D7DE; }
+      .card-title { fill: #0969DA; }
+      .card-body { fill: #57606A; }
+    }
+  </style>
+  <rect class="bg" width="800" height="400" rx="8" />
+  
+  <text x="40" y="50" class="title">02 — projects</text>
+  
+  <!-- Project 1: Photon -->
+  <rect class="card-bg" x="40" y="70" width="720" height="90" rx="6" />
+  <text x="60" y="100" class="card-title">Photon</text>
+  <text x="60" y="125" class="card-body">Rust-native multi-engine smart contract security scanner combining static analysis, symbolic verification</text>
+  <text x="60" y="145" class="card-body">and EVM invariant fuzzing into a single CI-ready SARIF pipeline.</text>
+  
+  <!-- Project 2: SentinelBridge -->
+  <rect class="card-bg" x="40" y="175" width="720" height="90" rx="6" />
+  <text x="60" y="205" class="card-title">SentinelBridge</text>
+  <text x="60" y="230" class="card-body">AI-powered cross-chain bridge security layer. Uses LLaMA-3.1 via Groq for real-time threat classification.</text>
+  <text x="60" y="250" class="card-body">Solidity 0.8 circuit-breaker contracts automatically halt bridges when risks are detected.</text>
+  
+  <!-- Project 3: TokenomicsLab -->
+  <rect class="card-bg" x="40" y="280" width="720" height="90" rx="6" />
+  <text x="60" y="310" class="card-title">TokenomicsLab</text>
+  <text x="60" y="335" class="card-body">Production DeFi analytics platform with a proprietary risk-scoring engine. Correlates liquidity locks,</text>
+  <text x="60" y="355" class="card-body">holder distribution, and deployer behavior across multiple EVM chains.</text>
+</svg>

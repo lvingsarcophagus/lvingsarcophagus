@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <style>
+    .bg { fill: #0D1117; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600; fill: #C9D1D9; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; fill: #8B949E; line-height: 1.5; }
+    .highlight { fill: #C9D1D9; font-weight: 600; }
+    .bullet { fill: #58A6FF; font-size: 14px; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #FFFFFF; }
+      .title { fill: #24292F; }
+      .body { fill: #57606A; }
+      .highlight { fill: #24292F; }
+      .bullet { fill: #0969DA; }
+    }
+  </style>
+  <rect class="bg" width="800" height="300" rx="8" />
+  
+  <text x="40" y="50" class="title">01 — whoami</text>
+  
+  <text x="40" y="90" class="body">I work at the intersection of <tspan class="highlight">cybersecurity</tspan> and <tspan class="highlight">blockchain security</tspan>. I audit smart contracts,</text>
+  <text x="40" y="115" class="body">build security tooling, and engineer DeFi systems designed to be resilient from day one.</text>
+  <text x="40" y="140" class="body">I hold a BSc in Information Systems and Cybersecurity from Vilnius University, with hands-on</text>
+  <text x="40" y="165" class="body">experience across penetration testing, threat detection, and secure architecture.</text>
+  
+  <text x="40" y="215" class="bullet">▶</text>
+  <text x="60" y="215" class="body"><tspan class="highlight">Smart Contract Security</tspan>: Reentrancy, access control, oracle manipulation, invariant fuzzing</text>
+  
+  <text x="40" y="245" class="bullet">▶</text>
+  <text x="60" y="245" class="body"><tspan class="highlight">Security Tooling</tspan>: Custom static analyzers, symbolic execution (Z3), taint-tracking, SARIF</text>
+  
+  <text x="40" y="275" class="bullet">▶</text>
+  <text x="60" y="275" class="body"><tspan class="highlight">Penetration Testing</tspan>: Network recon, vulnerability assessment, adversary simulation</text>
+</svg>
