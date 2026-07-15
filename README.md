@@ -1,84 +1,107 @@
-# Nayan Joshy · @lvingsarcophagus
-> **Cybersecurity Engineer · Web3 Security Specialist · Smart Contract Auditor**
+<h1 align="center">Nayan Joshy</h1>
 
 <p align="center">
-  <a href="mailto:nayanjoshymaniyathjoshy@gmail.com"><img src="https://img.shields.io/badge/Email-nayanjoshymaniyathjoshy%40gmail.com-blue?style=flat-square&logo=gmail" alt="Email"></a>
-  <a href="https://livingsarcophagus.tech/"><img src="https://img.shields.io/badge/Website-livingsarcophagus.tech-indigo?style=flat-square&logo=google-chrome" alt="Website"></a>
-  <a href="https://github.com/lvingsarcophagus"><img src="https://img.shields.io/badge/GitHub-lvingsarcophagus-black?style=flat-square&logo=github" alt="GitHub"></a>
+  <strong>Cybersecurity Engineer · Web3 Security · Smart Contract Auditor</strong>
+</p>
+
+<p align="center">
+  <a href="mailto:nayanjoshymaniyathjoshy@gmail.com"><img src="https://img.shields.io/badge/-Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <a href="https://livingsarcophagus.tech"><img src="https://img.shields.io/badge/-Website-0D1117?style=for-the-badge&logo=firefox&logoColor=FF7139" alt="Website" /></a>
+  <a href="https://github.com/lvingsarcophagus"><img src="https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-Kaunas,_Lithuania-0D1117?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Web3_Security-0D1117?style=flat-square" />
+  <img src="https://img.shields.io/badge/BSc-Cybersecurity-0D1117?style=flat-square" />
 </p>
 
 ---
 
-### About Me
-I specialize at the intersection of **Cybersecurity** and **Web3 Security**. With a **BSc in Information Systems and Cybersecurity** from Vilnius University, my work spans auditing smart contract attack surfaces, engineering security tooling, and conducting penetration testing. I focus on building robust defense mechanisms for decentralized protocols and traditional enterprise systems alike.
+I work at the intersection of **cybersecurity** and **blockchain security**. I audit smart contracts, build security tooling, and engineer DeFi systems designed to be resilient from day one. I hold a BSc in Information Systems and Cybersecurity from Vilnius University, with hands-on experience across penetration testing, threat detection, and secure architecture.
 
 ---
 
-### Cybersecurity & Web3 Security Focus
+### Security & Auditing
 
-* **Smart Contract Auditing & Pen-testing**
-  * Advanced vulnerability discovery covering reentrancy, access control bypass, oracle manipulation, and cross-chain bridge architecture.
-  * Authorship of secure, defense-in-depth smart contracts and integration of circuit-breaker mechanisms.
-* **Security Tooling & Infrastructure**
-  * Building multi-engine AST scanners, symbolic execution models, and customized EVM invariant fuzzers.
-  * Experience with static analysis frameworks, data-flow taint tracking, and threat modeling protocols.
-* **Traditional Security Operations**
-  * Penetration testing (Nmap, Metasploit, Burp Suite, Wireshark).
-  * SIEM analysis, threat hunting, vulnerability management, and log review (Splunk).
-  * Compliance mapping across OWASP Top 10, ISO 27001, and GDPR guidelines.
+| Area | Capabilities |
+|:--|:--|
+| **Smart Contract Security** | Reentrancy analysis, access control auditing, oracle manipulation detection, cross-chain bridge review, flash-loan attack surface mapping |
+| **Security Tooling** | Custom static analyzers, symbolic execution (Z3 SMT), EVM invariant fuzzing (revm), taint-tracking engines, SARIF reporting |
+| **Penetration Testing** | Network recon, vulnerability assessment, adversary simulation — Nmap, Metasploit, Burp Suite, Wireshark |
+| **Compliance & Operations** | SIEM/log analysis (Splunk), IDS/IPS, OWASP Top 10, ISO 27001, GDPR |
 
 ---
 
-### Public Security & DeFi Projects
+### Projects
 
-#### [Photon](https://github.com/lvingsarcophagus/photon)
-*Rust-native multi-engine smart contract security scanner*
-* **Multi-Engine Scanning Pipeline:** Integrates structural static analysis (50+ rules), SMT-based symbolic verification (Z3 solver), and dynamic EVM invariant fuzzing (`revm`).
-* **On-Chain Attestations:** Uses Chainlink Functions to report protocol risk-assessment scores directly on-chain.
-* *Tech Stack: Rust, Z3 SMT, revm, solang-parser, Chainlink Functions, Solidity*
+**[Photon](https://github.com/lvingsarcophagus/photon)** — Rust-native multi-engine smart contract security scanner. Combines Rayon-parallel static analysis (50+ rules), Z3-based symbolic verification, revm invariant fuzzing, and Chainlink Functions on-chain attestations into a single pipeline. Outputs SARIF v2.1.0 reports compatible with GitHub Actions and VS Code.
 
-#### [SentinelBridge](https://github.com/lvingsarcophagus/SentinelBridge)
-*AI-powered cross-chain bridge security and auto-pause layer*
-* **Threat Classification:** Employs LLaMA-3.1-8B via Groq for real-time risk classification of bridge transaction streams.
-* **Emergency Halt Circuit:** Pauses Solidity 0.8.20 bridge contracts autonomously if AI confidence scores exceed 80%.
-* *Tech Stack: Solidity, Go, Groq API, Chainlink, Foundry*
+**[SentinelBridge](https://github.com/lvingsarcophagus/SentinelBridge)** — AI-powered cross-chain bridge security layer. Uses LLaMA-3.1-8B via Groq for real-time threat classification of transaction streams. Solidity 0.8.20 circuit-breaker contracts auto-halt bridges when risk confidence exceeds thresholds. Built for the Chainlink Convergence Hackathon 2026.
 
-#### [TokenomicsLab](https://tokenomiclab.app)
-*Production DeFi analytics platform & risk engine*
-* **Scam Detection Scoring:** Quantifies token risk by cross-referencing liquidity locks, holder patterns, mint/burn triggers, and deployer history.
-* *Tech Stack: TypeScript, Next.js, Firebase, Firestore, Ethers.js*
+**[TokenomicsLab](https://tokenomiclab.app)** — Production DeFi analytics platform with a proprietary risk-scoring engine. Correlates liquidity locks, holder distribution, mint/burn events, and deployer behavior across multiple chains. Designed, architected, and shipped solo.
 
 ---
 
-### Tech Stack & Tooling
+### Tech Stack
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | `Rust` · `Solidity` · `Go` · `TypeScript` · `Python` · `Bash` · `SQL` |
-| **Web3 Security** | `Foundry` · `Hardhat` · `revm` · `Z3 Solver` · `Slither` · `Mythril` |
-| **Cybersecurity** | `Burp Suite` · `Metasploit` · `Wireshark` · `Nmap` · `Splunk` · `Linux` |
-| **Backend & Cloud** | `Next.js` · `React` · `Node.js` · `Firebase` · `Docker` · `AWS` |
+<p>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Foundry-1C1C1C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black" />
+  <img src="https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
 
 ---
 
-### Education & Certifications
+### Education
 
-* **BSc in Information Systems and Cybersecurity** — Vilnius University (2022–2026) · *GPA 7.93/10*
-* **Google Cybersecurity Professional Certificate** — Google (Dec 2025)
-* **Junior Cybersecurity Analyst Career Path** — Cisco (Aug 2025)
+| Credential | Institution | Year |
+|:--|:--|:--|
+| BSc Information Systems and Cybersecurity (GPA 7.93/10) | Vilnius University | 2022–2026 |
+| Google Cybersecurity Professional Certificate | Google | 2025 |
+| Junior Cybersecurity Analyst Career Path | Cisco | 2025 |
 
 ---
 
 ### GitHub Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lvingsarcophagus&show_icons=true&theme=tokyonight&count_private=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lvingsarcophagus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9" width="49%" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=lvingsarcophagus&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="60%" />
+</p>
 
 ---
 
-### Contact & Collaborations
-
-* **Email:** [nayanjoshymaniyathjoshy@gmail.com](mailto:nayanjoshymaniyathjoshy@gmail.com)
-* **Website:** [livingsarcophagus.tech](https://livingsarcophagus.tech/)
-* **Auditing Inquiry:** Open to Web3 smart contract security audits, penetration testing projects, and secure Solidity/Rust development.
+<p align="center">
+  <em>Open to Web3 security audits, smart contract pen-testing, and security tooling contracts.</em>
+</p>
