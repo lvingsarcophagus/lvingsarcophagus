@@ -25,18 +25,18 @@
 <div align="center">
 
 <picture>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lvingsarcophagus&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" width="49%" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lvingsarcophagus&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=a3b3c2&count_private=true" width="49%" alt="GitHub Stats"/>
 </picture>
 <picture>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages"/>
-</picture>
-
-<picture>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=lvingsarcophagus&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="60%" alt="Streak Stats"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lvingsarcophagus&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a3b3c2&langs_count=8" width="49%" alt="Top Languages"/>
 </picture>
 
 <picture>
-  <img src="https://ghchart.rshah.org/58a6ff/lvingsarcophagus" width="100%" alt="Contribution Chart"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=lvingsarcophagus&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=a3b3c2&stat=ffffff&statLabel=ffffff" width="60%" alt="Streak Stats"/>
+</picture>
+
+<picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lvingsarcophagus&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area_color=ffffff&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="100%" alt="Contribution Telemetry"/>
 </picture>
 
 </div>
